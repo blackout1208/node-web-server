@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server.js",
-    "start:hbs": "nodemon server.js -e js,hbs"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "dev:hbs": "nodemon server.js -e js,hbs"
   },
   "dependencies": {
     "express": "^4.16.2",
